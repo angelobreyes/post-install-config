@@ -46,7 +46,7 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 <br />
 
-  - Then click on "Agent Panel". This page focuses on tickets and tasks as an Agent.
+  - Then click on "Agent Panel" and observe. You'll see that this panel doesn't have the variety of options and focuses on tickets and tasks as an Agent.
 
 ![image](https://github.com/user-attachments/assets/d632575f-4579-41ef-8a1b-1e3604d112e4)
 
@@ -56,14 +56,26 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 <h3>3. Configure Roles.</h3>
 
-  - Once you're logged in, look to the top-right corner, "Admin Panel" and click. This panel allows you a wide variety of configurations and settings as an Administrator.
+  - First, we will create a role with all permissions allowed to simulate a head administrator.
+  - Go to the Admin Panel -> hover on Agents tab -> click Roles
 
 ![image](https://github.com/user-attachments/assets/e53d2841-34be-4c79-ae4f-4ac097151438)
 
-![image](https://github.com/user-attachments/assets/8dff88ca-625e-4265-a94d-a233829f279b)
+![image](https://github.com/user-attachments/assets/4bf4e105-cdc9-4e28-a293-d778f9b9fa49)
+
+  - Click Add New Role -> type in the name of your Admin -> click Permissions and click all checkboxes
+
+![image](https://github.com/user-attachments/assets/71b2422d-6950-4209-a87a-6953697e45c6)
+
+![image](https://github.com/user-attachments/assets/278430b0-2e9a-463c-b03f-32b56c5b9177)
+
+![image](https://github.com/user-attachments/assets/e800c4c1-c7bf-490d-9a4a-2cde2739a7c1)
+
+
+
+
 
 <br />
-
 
 
 Configure Roles (for grouping permissions)
