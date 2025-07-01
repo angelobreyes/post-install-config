@@ -56,14 +56,14 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 <h3>3. Configure Roles.</h3>
 
-  - First, we will create a role with all permissions allowed to simulate a head administrator.
+  - We will create a role with all permissions allowed to simulate a head administrator.
   - Go to the Admin Panel -> hover on Agents tab -> click Roles
 
 ![image](https://github.com/user-attachments/assets/e53d2841-34be-4c79-ae4f-4ac097151438)
 
 ![image](https://github.com/user-attachments/assets/4bf4e105-cdc9-4e28-a293-d778f9b9fa49)
 
-  - Click Add New Role -> type in the name of your Admin -> click Permissions and click all checkboxes
+  - Click Add New Role -> type in the name of your Admin -> click Permissions and click all checkboxes -> click Add Role
 
 ![image](https://github.com/user-attachments/assets/71b2422d-6950-4209-a87a-6953697e45c6)
 
@@ -71,20 +71,46 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 ![image](https://github.com/user-attachments/assets/e800c4c1-c7bf-490d-9a4a-2cde2739a7c1)
 
+![image](https://github.com/user-attachments/assets/af9acf37-ec3b-4cad-b0ea-1a8ca68a5bb7)
 
+![image](https://github.com/user-attachments/assets/cf8f5ee6-c818-47fa-8751-44886997c852)
 
+![image](https://github.com/user-attachments/assets/811dbdfa-35d0-47e8-834e-937efd8b1049)
+
+<br />
+
+<h3>4. Configure Departments. (Ticket Visibility, Help Desk vs SysAdmins, vs Networking) </h3>
+
+  - We will create a Department to ___________ tickets based on category.
+    You can create different departments such as Networking, Sys Admins and Help Desk.
+    
+  - Stay in Admin Panel and click Departments (under Agents)
+
+![image](https://github.com/user-attachments/assets/4a82cf4e-e362-4d88-b6e1-a77532e3b11a)
+
+  - Click Add New Department
+
+![image](https://github.com/user-attachments/assets/07337b2f-b27f-4331-9e6b-a0dd0a9080eb)
+
+  - Type in the name of the Department you want to create -> scroll down and click Create Dept
+
+![image](https://github.com/user-attachments/assets/fd44d7eb-f61e-4ffd-b82a-1e1a72af54ec)
+
+![image](https://github.com/user-attachments/assets/54c95af5-e8c0-44b6-b37f-9cdd7e3734db)
+
+<br />
+
+<h3>5. Configure Teams </h3>
+
+  - We will create  which handle specific tickets based on category.
 
 
 <br />
 
 
-Configure Roles (for grouping permissions)
-Admin Panel -> Agents -> Roles
-Supreme Admin
 
-Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)
-Admin Panel -> Agents -> Departments
-SysAdmins
+
+
 
 Configure Teams
 Admin Panel -> Agents -> Teams (Pull Agents from different Departments)
