@@ -3,12 +3,10 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+Welcome to the next step of osTicket installation! This tutorial outlines the post-install configuration of osTicket where we will create/configure the roles (Admin, Agents, Users, etc.), teams, permissions, and so on.
 
+<br />
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
@@ -22,11 +20,11 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Roles
+- Configure Departments
+- Configure Teams
+- Configure Users
+- Configure SLAs ( Service Level Agreements ) and Help Topics
 
 <h2>Configuration Steps</h2>
 
