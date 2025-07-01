@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-Welcome to the next step of osTicket installation! This tutorial outlines the post-install configuration of osTicket where we will create/configure the roles (Admin, Agents, Users, etc.), teams, permissions, and so on.
+Welcome to the next step of osTicket installation! This tutorial outlines the post-install configuration of osTicket where we will create/configure the roles (Admin, Agents, Users), teams, permissions, and etc.
 
 <br />
 
@@ -28,26 +28,81 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 <h2>Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+<h3>1. Log in to the Admin/Analyst page.</h3>
+
+  - Go to http://localhost/osTicket/scp/login.php and log in. Use the Admin username and password you made from the previous lab.
+
+![image](https://github.com/user-attachments/assets/d61c2fb0-4abd-4131-9dd8-b496c4d128a1)
+
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+<h3>2. Take note of Admin Panel and Agent Panel.</h3>
+
+  - Once you're logged in, look to the top-right corner, "Admin Panel" and click. This panel allows you a wide variety of configurations and settings as an Administrator.
+
+![image](https://github.com/user-attachments/assets/e53d2841-34be-4c79-ae4f-4ac097151438)
+
+![image](https://github.com/user-attachments/assets/8dff88ca-625e-4265-a94d-a233829f279b)
+
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+  - Then click on "Agent Panel". This page focuses on tickets and tasks as an Agent.
+
+![image](https://github.com/user-attachments/assets/d632575f-4579-41ef-8a1b-1e3604d112e4)
+
+![image](https://github.com/user-attachments/assets/6355d8d0-4884-44e8-ad12-eb5ce3cc8cbf)
+
 <br />
+
+<h3>3. Configure Roles.</h3>
+
+  - Once you're logged in, look to the top-right corner, "Admin Panel" and click. This panel allows you a wide variety of configurations and settings as an Administrator.
+
+![image](https://github.com/user-attachments/assets/e53d2841-34be-4c79-ae4f-4ac097151438)
+
+![image](https://github.com/user-attachments/assets/8dff88ca-625e-4265-a94d-a233829f279b)
+
+<br />
+
+
+
+Configure Roles (for grouping permissions)
+Admin Panel -> Agents -> Roles
+Supreme Admin
+
+Configure Departments (Ticket Visibility, Help Desk vs SysAdmins, vs Networking)
+Admin Panel -> Agents -> Departments
+SysAdmins
+
+Configure Teams
+Admin Panel -> Agents -> Teams (Pull Agents from different Departments)
+Online Banking
+
+Allow anyone to create tickets
+Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets)
+Registration Required: Require registration and login to create tickets 
+
+Configure Agents (workers)
+Admin Panel -> Agents -> Add New
+Jane (Dept: SysAdmins)
+John (Dept: Support)
+
+Configure Users (customers)
+Agent Panel -> Users -> Add New
+Karen
+Ken
+
+Configure SLA
+Admin Panel -> Manage -> SLA
+Sev-A (Grace Period: 1 hour, Schedule: 24/7)
+Sev-B (Grace Period: 4 hours, Schedule: 24/7)
+Sev-C (Grace Period: 8 hours, Business Hours)
+
+Configure Help Topics (For when users create a ticket)
+Admin Panel -> Manage -> Help Topics
+Business Critical Outage
+Personal Computer Issues
+Equipment Request
+Password Reset
+Other
+
