@@ -97,6 +97,18 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 ![image](https://github.com/user-attachments/assets/54c95af5-e8c0-44b6-b37f-9cdd7e3734db)
 
+  - Delete Maintenance department
+
+    - Go to Agents and click Departments
+ 
+![image](https://github.com/user-attachments/assets/d26c1863-b2c2-4406-8d89-616ada23cb89)
+
+  - click checkbox before Maintenance -> click More -> click Delete -> click Yes
+
+![image](https://github.com/user-attachments/assets/832033e5-538d-4b51-81f9-445759f512d8)
+
+![image](https://github.com/user-attachments/assets/0cc3c5a0-214b-4b3d-9ea6-6c371704433c)
+
 <br />
 
 <h3>5. Configure Teams </h3>
