@@ -119,7 +119,7 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 <br />
 
-<h3>5. Allow anyone to create tickets </h3>
+<h3>6. Allow anyone to create tickets </h3>
 
   - Stay on Admin Panel -> hover on Settings tab -> click Users
 
@@ -132,7 +132,7 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 <br />
 
-<h3>6. Configure Agents </h3>
+<h3>7. Configure Agents </h3>
 
   - Now, we will create Agents to simulate people who work on the tickets
   - Stay on Admin Panel -> hover on Agents tab -> click Agents
@@ -193,16 +193,97 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 <br />
 
-Configure Users (customers)
-Agent Panel -> Users -> Add New
-Karen
-Ken
+<h3>8. Configure Users </h3>
 
-Configure SLA
-Admin Panel -> Manage -> SLA
-Sev-A (Grace Period: 1 hour, Schedule: 24/7)
-Sev-B (Grace Period: 4 hours, Schedule: 24/7)
-Sev-C (Grace Period: 8 hours, Business Hours)
+  - Now, we will create two Users to simulate people who create the tickets
+  - Go to Agent Panel, hover on Users Tab -> click User Directory
+
+![image](https://github.com/user-attachments/assets/66bab3ce-008b-4ff2-a951-a13c40a876ed)
+
+![image](https://github.com/user-attachments/assets/c8ec5e93-cc31-41b8-b973-c205d0a8e2a2)
+
+  - Click Add User -> fill the email address and full name -> click Add User
+
+![image](https://github.com/user-attachments/assets/e3cea49f-b37d-41f6-b558-0a87b4f9e6a7)
+
+![image](https://github.com/user-attachments/assets/62a23d3a-de6e-40c9-a9c9-e0ad46716010)
+
+  -  Go back to User Directory -> repeat the process but use a different name
+
+![image](https://github.com/user-attachments/assets/98264150-e364-4d67-8202-87c35886e0b2)
+
+![image](https://github.com/user-attachments/assets/7842062a-c51d-4a07-82a5-fb42268743d5)
+
+![image](https://github.com/user-attachments/assets/4605a1c8-37da-414a-b690-b8a19912ee11)
+
+
+<br />
+
+<h3>9. Configure SLAs </h3>
+
+  - Now, we will create SLAs (Service Level Agreements). This determines the severity of tickets
+    and the appropriate incident response protocol
+  - Go to Admin Panel -> hover on Manage and click SLA
+
+![image](https://github.com/user-attachments/assets/326e8a5f-348b-46ae-8e88-abdf5151d300)
+
+![image](https://github.com/user-attachments/assets/05ba303a-3474-4b67-af3e-aa125ecdb334)
+
+  -  Click Add New SLA Plan
+
+![image](https://github.com/user-attachments/assets/eec07a9a-5a62-4d14-9f5e-2791eab6b789)
+
+  -  We will create 3 SLAs
+  - Sev-A (Grace Period: 1 hour, Schedule: 24/7) then Add Plan
+
+![image](https://github.com/user-attachments/assets/2785b38f-7c3d-4b33-a450-3342371388f4)
+
+  - Sev-B (Grace Period: 4 hours, Schedule: 24/7) then Add Plan
+
+![image](https://github.com/user-attachments/assets/7becf405-68d0-4055-877a-40ddeaf697c3)
+
+  - Sev-C (Grace Period: 8 hours, Business Hours) then Add Plan
+
+![image](https://github.com/user-attachments/assets/473b473f-3b76-4c87-be70-158798a27f92)
+
+![image](https://github.com/user-attachments/assets/85012d45-3125-46dc-99d5-0e259881dd42)
+
+<br />
+
+<h3>10. Configure Help Topics </h3>
+
+  -  Lastly, we will configure help topics for when users create a ticket
+  -  Go to help topics and click Add New Help Topic
+
+![image](https://github.com/user-attachments/assets/5a57d40a-6b71-4e1e-acb2-fdfdd08293f6)
+
+![image](https://github.com/user-attachments/assets/9e455609-8444-439c-8d7f-c13d65199b60)
+
+  -  We will create 5 help topics
+
+  - Business Critical Outage / Report a Problem -> Add Topic -> back to Help Topics
+
+![image](https://github.com/user-attachments/assets/1a8819fe-977e-4ee1-bce4-da5f927b2806)
+      
+  - Personal Computer Issues / Report a Problem -> Add Topic -> back to Help Topics
+
+![image](https://github.com/user-attachments/assets/fcf76e6f-1271-44fe-951c-81974a7c956b)
+
+  - Equipment Request / General Inquiry -> Add Topic -> back to Help Topics
+
+![image](https://github.com/user-attachments/assets/24605199-c266-4222-8f36-3eb1b4c636fb)
+
+  - Password Reset / Report a Problem -> Add Topic -> back to Help Topics
+
+![image](https://github.com/user-attachments/assets/e21fa13c-f86d-41a1-b037-f8f062a3117c)
+
+  - Other / General Inquiry -> Add Topic
+ 
+![image](https://github.com/user-attachments/assets/71eb0578-c5df-4c77-8dbd-cf870a4b533e)
+
+<br />
+
+
 
 Configure Help Topics (For when users create a ticket)
 Admin Panel -> Manage -> Help Topics
