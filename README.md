@@ -81,10 +81,9 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 <h3>4. Configure Departments. (Ticket Visibility, Help Desk vs SysAdmins, vs Networking) </h3>
 
-  - We will create a Department to ___________ tickets based on category.
-    You can create different departments such as Networking, Sys Admins and Help Desk.
+  - You can create different departments such as Networking, Sys Admins and Help Desk. 
     
-  - Stay in Admin Panel and click Departments (under Agents)
+  - To configure departments, stay on Admin Panel and click Departments (under Agents)
 
 ![image](https://github.com/user-attachments/assets/4a82cf4e-e362-4d88-b6e1-a77532e3b11a)
 
@@ -102,23 +101,64 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 <h3>5. Configure Teams </h3>
 
-  - We will create  which handle specific tickets based on category.
+  - To configure Teams, stay on Admin Panel and Agents tab -> click Agents
 
+![image](https://github.com/user-attachments/assets/7d28d489-0b4d-4bef-acd9-83cec2767722)
+
+  - On the Agents page, click Teams -> click Add New Team 
+
+![image](https://github.com/user-attachments/assets/a1eeaaa0-a8c6-4722-a980-2f334f1f9d4c)
+
+![image](https://github.com/user-attachments/assets/8e39d302-5279-4154-9a02-a0ac63163e0e)
+
+  - For this example, type in Online Banking and click Create Team
+
+![image](https://github.com/user-attachments/assets/c9538a02-790e-49c7-a867-4d38b52f5980)
+
+![image](https://github.com/user-attachments/assets/64c5a1f5-00c6-42af-99c7-2e34c7150159)
 
 <br />
 
+<h3>5. Allow anyone to create tickets </h3>
+
+  - Stay on Admin Panel -> hover on Settings tab -> click Users
+
+![image](https://github.com/user-attachments/assets/e46ade26-c1f0-4411-bcd2-be4343b567d0)
+
+  - on User Settings, make sure the box is UNCHECKED for "Require registration and login to create tickets"
+  - if it is, the uncheck the box and click Save Changes below
+
+![image](https://github.com/user-attachments/assets/737d4ef6-e9d2-4446-8cd2-e15db2359e27)
+
+<br />
+
+<h3>6. Configure Agents </h3>
+
+  - Now, we will create Agents to simulate people who work on the tickets
+  - Stay on Admin Panel -> hover on Agents tab -> click Agents
+
+![image](https://github.com/user-attachments/assets/d325d5dc-a793-4536-a1c4-0370919f22ce)
+
+  - For this example, we will create two Agents.
+  - Click Add New Agent 
+
+![image](https://github.com/user-attachments/assets/e81382b3-ca61-46e5-b2d5-20c2e2bab5de)
+
+  - Name : Jane Doe
+  - Email : jane@heldesk.com
+  - Username : janedoe
+  - Click Set Password
+
+![image](https://github.com/user-attachments/assets/9833ce33-3007-4504-b094-39a2e572e6d8)
+
+  - Uncheck the two boxes and type in a password then click Set
+
+![image](https://github.com/user-attachments/assets/f5d060b4-c60d-4537-8320-3b1e16c84e6e)
+
+ - 
 
 
-
-
-
-Configure Teams
-Admin Panel -> Agents -> Teams (Pull Agents from different Departments)
-Online Banking
-
-Allow anyone to create tickets
-Admin Panel -> Settings -> User Settings (UNCHECK: unregistered users can create tickets)
-Registration Required: Require registration and login to create tickets 
+<br />
 
 Configure Agents (workers)
 Admin Panel -> Agents -> Add New
