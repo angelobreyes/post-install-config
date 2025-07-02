@@ -155,7 +155,41 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 ![image](https://github.com/user-attachments/assets/f5d060b4-c60d-4537-8320-3b1e16c84e6e)
 
- - 
+ - Click Access -> choose System Administrators -> choose Senior Administrator -> Assign to Online Banking and create
+
+![image](https://github.com/user-attachments/assets/d80de3dc-7738-436e-afde-42a5e720605a)
+
+![image](https://github.com/user-attachments/assets/28e2ae96-93a5-4aba-bb3a-f62fc0978625)
+
+![image](https://github.com/user-attachments/assets/6bbe850f-1b9b-493e-a9e3-1278e494045c)
+
+![image](https://github.com/user-attachments/assets/136447db-f58d-4d91-8e3e-c9db5df136df)
+
+ - We will create one more agent, go back to Agents page
+  - Click Agents -> Add New Agent
+
+![image](https://github.com/user-attachments/assets/5345e997-6a53-4635-82cf-e95cbd0c6dcf)
+
+![image](https://github.com/user-attachments/assets/288c1035-f06a-4f96-9397-918e30c0d50b)
+
+  - Name : John Doe
+  - Email : john@helpdesk.com
+  - Username : johndoe
+  - Click Set Password
+
+![image](https://github.com/user-attachments/assets/629c73ad-5126-465d-9527-c825d8418b23)
+
+  - Uncheck the two boxes and type in a password then click Set
+
+![image](https://github.com/user-attachments/assets/7e738620-fd06-432a-bebd-2bcdb5effe49)
+
+  - Click Access -> choose Support -> choose limited Access
+
+![image](https://github.com/user-attachments/assets/6acc73b6-98f3-4e62-a0b7-29a0d9ebc2f1)
+
+
+
+
 
 
 <br />
