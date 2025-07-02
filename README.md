@@ -139,7 +139,7 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 ![image](https://github.com/user-attachments/assets/d325d5dc-a793-4536-a1c4-0370919f22ce)
 
-  - For this example, we will create two Agents.
+  - For this example, we will create two Agents. 1 system admin and 1 support
   - Click Add New Agent 
 
 ![image](https://github.com/user-attachments/assets/e81382b3-ca61-46e5-b2d5-20c2e2bab5de)
@@ -183,21 +183,15 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 ![image](https://github.com/user-attachments/assets/7e738620-fd06-432a-bebd-2bcdb5effe49)
 
-  - Click Access -> choose Support -> choose limited Access
+  - Click Access -> choose Support -> choose View Only -> click Create
 
 ![image](https://github.com/user-attachments/assets/6acc73b6-98f3-4e62-a0b7-29a0d9ebc2f1)
 
+![image](https://github.com/user-attachments/assets/46f82772-a0d2-48bb-9fac-0b1fabb51d61)
 
-
-
-
+![image](https://github.com/user-attachments/assets/b9e5d3a7-b94d-4f9a-badc-10ea4754be24)
 
 <br />
-
-Configure Agents (workers)
-Admin Panel -> Agents -> Add New
-Jane (Dept: SysAdmins)
-John (Dept: Support)
 
 Configure Users (customers)
 Agent Panel -> Users -> Add New
