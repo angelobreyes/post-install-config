@@ -295,10 +295,8 @@ Welcome to the next step of osTicket installation! This tutorial outlines the po
 
 <br />
 
-<h2>Last step is <a href="https://github.com/angelobreyes/ticket-lifecycle">ticket lifecycle.</a></h2>
-
 ![image](https://github.com/user-attachments/assets/50839632-6ff8-4cfe-a993-dd4f92d135af)
 
 <br />
 
-<h3>Hope you find this helpful.</h3>
+<h2>Last step is <a href="https://github.com/angelobreyes/ticket-lifecycle">ticket lifecycle.</a></h2>
