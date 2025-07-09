@@ -5,6 +5,9 @@
 <h1>osTicket - Post-Install Configuration</h1>
 Welcome to the next step of osTicket installation! This tutorial outlines the post-install configuration of osTicket where we will create/configure the roles (Admin, Agents, Users), teams, permissions, and etc.
 
+*(This tutorial requires <a href ="https://github.com/angelobreyes/osticket-prereqs">osTicket Prerequisites and Installation</a>, please check it out first if you haven't.)* 
+
+
 <br />
 
 
